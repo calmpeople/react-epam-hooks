@@ -1,0 +1,41 @@
+header {
+    margin: 0 0 10px;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F65261;
+    background: #232323;
+
+    strong {
+        font-weight: 900;
+    }
+    .add-movie-button {
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        background: rgba(96, 96, 96, 0.68);
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+            background: rgb(96, 96, 96);
+        }
+    }
+    .logo {
+        margin: 0 20px 0 0;
+
+        a {
+            color: #F65261;
+            text-decoration: none;
+
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+    }
+}

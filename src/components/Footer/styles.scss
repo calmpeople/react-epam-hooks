@@ -1,0 +1,19 @@
+footer {
+    padding: 25px 60px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    background: #424242;
+    color: #F65261;
+
+    p {
+        margin: 0 0 15px;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+    strong {
+        font-weight: 900;
+    }
+}
